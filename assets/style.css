@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root{
+  --text-color: #ffffff;
+  --card-front-color: #51BBA9;
+  --card-back-color: #51BBA9;
+}
+
+body {
+  background: url(img/bg-desktop-blue.webp);
+  font-family: Josefin Sans;
+}
+.cartao__conteudo {
+    background-color: var(--card-front-color);
+    text-align: center;
+    height: 100%;
+  }
