@@ -10,7 +10,7 @@ body {
   background: url(img/bg-desktop-blue.webp);
   font-family: Josefin Sans;
 }
-.cartao__conteudo {
+.cartao_conteudo {
     background-color: var(--card-front-color);
     text-align: center;
     height: 100%;
@@ -25,10 +25,10 @@ body {
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
   }
-  .cartao__conteudo p {
+  .cartao_conteudo p {
     padding: 4rem;
   }
-  .cartao__conteudo h3 {
+  .cartao_conteudo h3 {
     color: var(--text-color);
     border: 1px solid var(--text-color);
     text-align: left;
