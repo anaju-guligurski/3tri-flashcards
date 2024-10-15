@@ -15,6 +15,8 @@ body {
   background-color: var(--card-front-color);
   text-align: center;
   height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 300ms ease-in-out;
 }
 
 #container {
@@ -42,6 +44,7 @@ body {
   margin: 0.6rem;
   border-radius: 0.6rem;
   font-size: 1vw;
+  backface-visibility: hidden;
 }
 
 .cartao__conteudo__pergunta p {
@@ -58,13 +61,6 @@ body {
   transform: rotateY(180deg);
 }
 
-.cartao__conteudo {
-  transform-style: preserve-3d;
-  transition: transform 300ms ease-in-out;
-}
-.cartao__conteudo h3{
-  backface-visibility: hidden;
-}
 .cartao__conteudo__frente,
 .cartao__conteudo__verso{
   backface-visibility: hidden;
