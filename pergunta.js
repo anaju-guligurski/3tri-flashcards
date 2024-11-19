@@ -1,6 +1,6 @@
 criaCartao(
-    'Matemática'
-    'O que é um Triângulo Equilátero?'
+    'Matemática',
+    'O que é um Triângulo Equilátero?',
     'É quando ele possui a medida dos três lados congruentes'
 )
 criaCartao(
